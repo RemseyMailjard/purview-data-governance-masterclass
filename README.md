@@ -31,6 +31,7 @@ This masterclass is designed for: Data Stewards, Data Governance Managers, Domai
 For a ProRail-specific facilitation approach aimed at Data Stewards, use the playbook here:
 
 - [ProRail Data Steward Playbook](./Data-Steward-Playbook-ProRail.md)
+- [1-Daagse Variant - ProRail Data Stewards](./One-Day-Workshop-ProRail-Data-Stewards.md)
 
 Each lab now also contains a **ProRail-context voor Data Stewards** section with practical role-focused outcomes and expected evidence.
 

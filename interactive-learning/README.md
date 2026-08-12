@@ -34,6 +34,12 @@ python -m http.server 5500
 - Notities per lab (opgeslagen in `localStorage`)
 - Volgende/vorige knoppen
 
+## Aanvullende workshopvariant
+
+Voor de Data Steward-gerichte 1-daagse ProRail-opzet, zie:
+
+- [1-Daagse Variant - ProRail Data Stewards](../One-Day-Workshop-ProRail-Data-Stewards.md)
+
 ## Bronbestanden
 
 De leeromgeving leest direct uit de bestaande markdown-labs in de repository root. Er is geen duplicatie van de labinhoud.
