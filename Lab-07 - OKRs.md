@@ -29,9 +29,16 @@
 - Welke metric zegt echt iets over databetrouwbaarheid in besluitvorming?
 - Waar sturen we nu op output in plaats van op effect?
 
-**Exit-ticket (2 min):** Kies 1 KR die per volgende maand in rapportage komt.
 
-## Task 1: Creating OKRs
+### Werkafspraak gedeelde Microsoft-omgeving
+
+**Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
+
+**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
+**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+
+**Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
+ 1: Creating OKRs
 
 > Microsoft Purview Solution: Unified Catalog
 
@@ -91,6 +98,7 @@ The back on the governance domain's OKR overview page, you can now see the objec
 **⏸️ Reflection:** Now that you have seen how Purview's implementation of OKRs can be used to link business objectives to Data products. How do you think this will help your organization? What are some of the challenges you foresee in maintaining these links as the business evolves?
 
 👉 [Continue: Lab 8](./Lab-08%20-%20Health%20Management%20Controls.md)
+
 
 
 

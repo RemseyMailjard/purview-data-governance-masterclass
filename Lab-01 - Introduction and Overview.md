@@ -29,9 +29,16 @@
 - Welke definitie veroorzaakt vandaag de meeste interpretatieverschillen tussen teams?
 - Welke beslissing in de operatie moet als eerste beter ondersteund worden door betrouwbare data?
 
-**Exit-ticket (2 min):** Iedere deelnemer noteert 1 term die direct geharmoniseerd moet worden en 1 stakeholder die daarvoor nodig is.
 
-## Task 1: Opening Welcome & Introductions
+### Werkafspraak gedeelde Microsoft-omgeving
+
+**Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
+
+**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
+**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+
+**Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
+ 1: Opening Welcome & Introductions
 
 **⏰ Duration:** 30 minutes
 
@@ -116,6 +123,7 @@ Well done! This part Lab has shown you to the value of Microsoft Purview for fed
 **⏸️ Reflection:** At this point in the masterclass, you have learnt the value of Microsoft Purview and how a federated data governance model can be adopted to scale enterprise-wide.
 
 👉 [Continue: Lab 2](./Lab-02%20-%20Designing%20the%20Data%20Map.md)
+
 
 
 

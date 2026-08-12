@@ -1,6 +1,7 @@
 ![Banner](./assets/banner.png)
 
-# Lab 11: Health Management Reports
+# Lab 11: Health Management Reports
+
 
 ## ProRail-context voor Data Stewards
 
@@ -34,6 +35,16 @@
 - Welke visualisatie helpt om risico sneller te begrijpen?
 
 **Exit-ticket (2 min):** Kies 1 KPI die je uitfaseert en 1 KPI die je toevoegt.
+
+### Werkafspraak gedeelde Microsoft-omgeving
+
+**Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
+
+**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
+**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+
+**Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
+
 ## Introduction
 
 Let's delve into the built-in reports provided by Purview to monitor and manage your data's health, ensuring its quality, compliance, and usability. These reports are essential for maintaining a healthy data estate and are crucial for making informed decisions about your data governance strategy.

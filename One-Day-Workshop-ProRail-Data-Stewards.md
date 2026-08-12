@@ -17,14 +17,11 @@ Deze 1-daagse variant is ontworpen voor data stewards bij ProRail. De focus ligt
 - Domeinvertegenwoordigers uit operatie, onderhoud, verkeersleiding en veiligheid
 - Optioneel: data owner, security/compliance vertegenwoordiger
 
-## Voorbereiding (vooraf, 30-60 min per deelnemer)
 
-Neem per deelnemer mee:
-
-- 1 dataset of rapport dat in de praktijk vaak discussie oplevert
-- 1 voorbeeld van onduidelijke definitie (bijv. storing, beschikbaarheid, vertragingsoorzaak)
-- 1 voorbeeld van toegangsvraag of datakwaliteitsissue uit de laatste 3 maanden
-
+**Initialen-afspraak (verplicht):**
+- Omdat alle deelnemers in één Microsoft-omgeving werken, voegt iedereen zijn/haar initialen toe aan elk item dat tijdens oefeningen wordt aangemaakt of aangepast.
+- Gebruik: `[INITIALEN]-[onderdeel]-[korte-naam]`.
+- Voorbeelden: `JD-domain-verkeersleiding`, `JD-dp-onderhoudsvenster`, `JD-kpi-datakwaliteit`.
 ## Dagindeling (8 uur inclusief pauzes)
 
 ### Blok 1 - 09:00-10:15
@@ -191,3 +188,4 @@ Aan het einde van de dag levert elk team op:
 - Vermijd abstracte definities zonder eigenaar, bron en kwaliteitsverwachting.
 - Gebruik consequent dezelfde kernwoorden: storing, beschikbaarheid, herstelduur, kritieke asset, ketenimpact.
 - Toets elke uitkomst op de vraag: helpt dit morgen de operatie veiliger en voorspelbaarder te maken?
+

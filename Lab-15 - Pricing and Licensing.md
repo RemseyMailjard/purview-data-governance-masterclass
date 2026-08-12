@@ -29,9 +29,16 @@
 - Welke assets moeten als eerste governed worden voor maximale impact?
 - Welke kostenmeter vraagt actief stuurgedrag van stewards?
 
-**Exit-ticket (2 min):** Definieer 1 beslisregel voor wel/niet cureren van assets.
 
-## Task 1: Understanding Operational Costs
+### Werkafspraak gedeelde Microsoft-omgeving
+
+**Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
+
+**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
+**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+
+**Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
+ 1: Understanding Operational Costs
 
 > Microsoft Purview Solution: Settings
 
@@ -126,6 +133,7 @@ Microsoft Purview provides an overview of the Cumulative governed assets and Dat
 **⏸️ Reflection:** Great job! You have made it to the end of the labs. This is a significant milestone in your learning journey. You have learned how to set up and configure Microsoft Purview, how to scan and classify data, and how to use the Unified Catalog to search and federate data governance.
 
 🏁 [Complete: Back to Overview](./README.md)
+
 
 
 

@@ -29,9 +29,16 @@
 - Welke term leidt het vaakst tot verkeerde KPI-interpretatie?
 - Welke governance-domain grens is nu nog onduidelijk?
 
-**Exit-ticket (2 min):** Publiceer 1 definitie die direct als referentie gebruikt gaat worden.
 
-## Task 1: Creating Governance Domains
+### Werkafspraak gedeelde Microsoft-omgeving
+
+**Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
+
+**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
+**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+
+**Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
+ 1: Creating Governance Domains
 
 > Microsoft Purview Solution: Unified Catalog
 
@@ -179,6 +186,7 @@ Please note that in order for a term to be visible to business users via the Ent
 **⏸️ Reflection:** At this point you have implemented one or more governance domains and articulated the value of business concepts over your physical data estate to assist in data governance. You have also created glossary terms to provide context to your data assets. Ready to move on?
 
 👉 [Continue: Lab 5](./Lab-05%20-%20Curating%20Data%20Assets.md)
+
 
 
 

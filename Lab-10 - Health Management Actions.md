@@ -1,6 +1,7 @@
 ![Banner](./assets/banner.png)
 
-# Lab 10: Data Estate Health Actions
+# Lab 10: Data Estate Health Actions
+
 
 ## ProRail-context voor Data Stewards
 
@@ -34,6 +35,16 @@
 - Wanneer is een actie echt opgelost versus administratief afgesloten?
 
 **Exit-ticket (2 min):** Definieer 1 SLA-afspraak voor high-severity acties.
+
+### Werkafspraak gedeelde Microsoft-omgeving
+
+**Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
+
+**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
+**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+
+**Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
+
 ## Introduction
 
 In the sections on Health Management Controls (covered in [Lab 08](./Lab-08%20-%20Health%20Management%20Controls.md)) and Data Quality Management (covered in [Lab 09](./Lab-09%20-%20Data%20Quality%20Management.md)), we looked at how to configure the rules that determine the quality score of each of your health controls. In this section we will focus on the Data Estate Health Actions and how to use these to improve the overall health score of your data estate.

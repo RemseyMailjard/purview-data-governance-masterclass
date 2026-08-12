@@ -48,3 +48,13 @@ Een labresultaat is steward-ready als minimaal het volgende is vastgelegd:
 - Minimaal 1 data product met steward-afspraken operationeel
 - Baseline voor datakwaliteit en health controls vastgesteld
 - Kwartaalplan voor verbetering met OKRs en eigenaarschap
+
+## Gedeelde Omgeving: Initialen Verplicht
+
+Alle deelnemers werken in dezelfde Microsoft-omgeving. Daarom geldt voor alle oefeningen:
+
+- Voeg je initialen toe aan elk aangemaakt of gewijzigd onderdeel.
+- Gebruik consequent het patroon: `[INITIALEN]-[onderdeel]-[korte-naam]`.
+- Voorbeelden: `JD-domain-spoorinfra`, `JD-term-beschikbaarheid`, `JD-control-metadata`.
+
+Deze afspraak maakt eigenaarschap direct zichtbaar en voorkomt dat teams elkaars objecten overschrijven.

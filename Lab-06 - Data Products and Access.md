@@ -29,9 +29,16 @@
 - Welke toegangsvraag is terugkerend en kan gestandaardiseerd worden?
 - Welke kwaliteitsvoorwaarde is essentieel voordat een product gepubliceerd wordt?
 
-**Exit-ticket (2 min):** Noteer 1 toegangsregel die direct in beleid moet worden opgenomen.
 
-## Task 1: Creating Data Products
+### Werkafspraak gedeelde Microsoft-omgeving
+
+**Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
+
+**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
+**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+
+**Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
+ 1: Creating Data Products
 
 **⏰ Duration:** 20 minutes
 
@@ -100,6 +107,7 @@ While its tempting to create a one-to-one mapping between data assets and Data p
 **✨ Pro Tip:** Remember that you are aiming for a federated data governance model. The task of maintaining data products and access isn't all on you.
 
 👉 [Continue: Lab 7](./Lab-07%20-%20OKRs.md)
+
 
 
 

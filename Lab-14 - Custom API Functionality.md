@@ -29,9 +29,16 @@
 - Welke integratie levert direct minder handmatig werk op?
 - Welke risico's ontstaan als eigenaarschap voor API-beheer onduidelijk blijft?
 
-**Exit-ticket (2 min):** Leg 1 API-use-case vast met eigenaar, baten en randvoorwaarden.
 
-## Task 1: Capturing Events
+### Werkafspraak gedeelde Microsoft-omgeving
+
+**Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
+
+**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
+**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+
+**Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
+ 1: Capturing Events
 
 **⏰ Duration:** 20 minutes
 
@@ -87,6 +94,7 @@ The Microsoft Purview Unified Catalog APIs can be used via a community-built Pyt
 **⏸️ Reflection:** You now have a better understanding of the Purview APIs available to your organization to build, extend and automate aspects of Microsoft Purview Data Governance. Lastly, let's review the pricing and licensing for Microsoft Purview.
 
 👉 [Continue: Lab 15](./Lab-15%20-%20Pricing%20and%20Licensing.md)
+
 
 
 

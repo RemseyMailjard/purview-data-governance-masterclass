@@ -29,9 +29,16 @@
 - Welke afhankelijkheid maakt ons het meest kwetsbaar?
 - Welke handmatige fallback is realistisch binnen 24 uur?
 
-**Exit-ticket (2 min):** Benoem 1 continuiteitsmaatregel die direct getest wordt.
 
-## Task 1: Understand your Responsibilities
+### Werkafspraak gedeelde Microsoft-omgeving
+
+**Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
+
+**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
+**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+
+**Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
+ 1: Understand your Responsibilities
 
 **⏰ Duration:** 15 minutes
 
@@ -80,6 +87,7 @@ In most cases, an organization wouldn't deem their internal data governance tool
 **⏸️ Reflection:** You just learnt the business continuity and disaster recovery options available to you in Microsoft Purview. Now let's see what you can do with the APIs and SDKs.
 
 👉 [Continue: Lab 14](./Lab-14%20-%20Custom%20API%20Functionality.md)
+
 
 
 

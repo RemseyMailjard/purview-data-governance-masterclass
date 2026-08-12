@@ -29,9 +29,16 @@
 - Welke bron kent het grootste risico op verouderde metadata?
 - Waar ontbreekt nu formeel eigenaarschap voor bronkwaliteit?
 
-**Exit-ticket (2 min):** Noteer 1 bron die binnen 2 weken governance-ready moet zijn en wie dit trekt.
 
-## Task 1: Registering Data Sources
+### Werkafspraak gedeelde Microsoft-omgeving
+
+**Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
+
+**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
+**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+
+**Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
+ 1: Registering Data Sources
 
 > Microsoft Purview Solution: Data Map
 
@@ -286,6 +293,7 @@ Each time a data source is onboarded, you will (roughly) follow these steps:
 Before you leave, review this section again to understand what is required as your organization connects new data sources or scales Purview across the data estate.
 
 👉 [Continue: Lab 4](./Lab-04%20-%20Governance%20Domains%20and%20Terms.md)
+
 
 
 

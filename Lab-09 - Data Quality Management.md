@@ -29,9 +29,16 @@
 - Welke kwaliteitsregel voorkomt het meeste herstelwerk achteraf?
 - Waar ontbreekt eigenaarschap na detectie van een kwaliteitsfout?
 
-**Exit-ticket (2 min):** Leg 1 quality rule inclusief eigenaar en responstijd vast.
 
-## Task 1: Introduction to Data Quality
+### Werkafspraak gedeelde Microsoft-omgeving
+
+**Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
+
+**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
+**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+
+**Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
+ 1: Introduction to Data Quality
 
 > Microsoft Purview Solution: Unified Catalog
 
@@ -305,6 +312,7 @@ Follow the steps in this tutorial to set up a data quality alert: [Set up a data
 The next lab will focus on Health Management Actions; reviewing, and remediating Data quality issues and Data estate health issues.
 
 👉 [Continue: Lab 10](./Lab-10%20-%20Health%20Management%20Actions.md)
+
 
 
 

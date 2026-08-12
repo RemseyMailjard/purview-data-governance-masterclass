@@ -1,6 +1,7 @@
 ![Banner](./assets/banner.png)
 
-# Lab 8: Health Management Overview
+# Lab 8: Health Management Overview
+
 
 ## ProRail-context voor Data Stewards
 
@@ -34,6 +35,16 @@
 - Welke threshold is nu te ruim of juist te streng?
 
 **Exit-ticket (2 min):** Bevestig 1 control die direct geactiveerd of aangescherpt wordt.
+
+### Werkafspraak gedeelde Microsoft-omgeving
+
+**Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
+
+**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
+**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+
+**Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
+
 ## Introduction
 
 Data estate health is the degree to which an organization's data assets are accurate, consistent, complete, accessible, secure, and compliant with business rules and regulations. Data estate health is a key factor for ensuring data quality, trust, and value for the organisation, across the data lifecycle.

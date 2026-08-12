@@ -1,6 +1,7 @@
 ![Banner](./assets/banner.png)
 
-# Lab 12: Data Observability
+# Lab 12: Data Observability
+
 
 ## ProRail-context voor Data Stewards
 
@@ -34,6 +35,16 @@
 - Welke ketenschakel mist nu monitoring?
 
 **Exit-ticket (2 min):** Leg 1 nieuw observability-signaal vast met eigenaar.
+
+### Werkafspraak gedeelde Microsoft-omgeving
+
+**Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
+
+**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
+**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+
+**Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
+
 ## Introduction
 
 Purview data observability in the Microsoft Purview Unified Catalog provides a holistic, visual overview of your data estate’s health, lineage, and quality. It enables data stewards and governance teams to:

@@ -29,9 +29,16 @@
 - Welke metadata ontbreekt het vaakst voor hergebruik in de operatie?
 - Wanneer keur je een asset af voor brede publicatie?
 
-**Exit-ticket (2 min):** Leg 1 minimale curatiestandaard vast die vanaf nu verplicht is.
 
-## Task 1: Curating Data Assets
+### Werkafspraak gedeelde Microsoft-omgeving
+
+**Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
+
+**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
+**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+
+**Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
+ 1: Curating Data Assets
 
 > Microsoft Purview Solution: Unified Catalog
 
@@ -107,6 +114,7 @@ With several data assets now curated, it is time to browse and discover these in
 **⏸️ Reflection:** Now that you have learned the basics of data asset curation, what are some of the challenges you foresee in getting business units to curate their data assets? How can you overcome these challenges?
 
 👉 [Continue: Lab 6](./Lab-06%20-%20Data%20Products%20and%20Access.md)
+
 
 
 
