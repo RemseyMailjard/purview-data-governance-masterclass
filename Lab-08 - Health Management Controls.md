@@ -1,6 +1,19 @@
 ![Banner](./assets/banner.png)
 
-# Lab 8: Health Management Overview
+# Lab 8: Health Management Overview
+
+## ProRail-context voor Data Stewards
+
+**Praktijkkader (ProRail):** Health controls monitoren datacondities die impact hebben op planning, onderhoud en incidentrespons.
+
+**Rolfocus Data Steward:**
+- Stel controls in voor volledigheid, actualiteit en consistentie.
+- Prioriteer controls op risico voor operatie en veiligheid.
+- Definieer escalatiepaden bij control-failures.
+
+**Op te leveren bewijs:**
+- Prioriteitenlijst met kritieke controls per domein.
+- Escalatiematrix met responstijden.
 
 **⏰ Duration:** 30 minutes
 
@@ -246,3 +259,4 @@ Here is an example of a daily refresh schedule:
 **⏸️ Reflection:** The health control rules are a powerful tool to define how the quality of your data estate should be measured. How do you think you can use these rules to improve the quality of your data estate?
 
 👉 [Continue: Lab 9](./Lab-09%20-%20Data%20Quality%20Management.md)
+

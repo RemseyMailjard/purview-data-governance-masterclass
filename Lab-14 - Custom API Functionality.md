@@ -1,6 +1,19 @@
 ![Banner](./assets/banner.png)
 
-# Lab 13: Custom Functionality with APIs and SDKs
+# Lab 13: Custom Functionality with APIs and SDKs
+
+## ProRail-context voor Data Stewards
+
+**Praktijkkader (ProRail):** API-uitbreidingen ondersteunen schaalbare governance-integratie met interne ketens en operationele tools.
+
+**Rolfocus Data Steward:**
+- Definieer minimale metadata die via API beschikbaar moet zijn.
+- Leg autorisatie- en auditvereisten vast voor API-gebruik.
+- Prioriteer API-use-cases met directe businesswaarde.
+
+**Op te leveren bewijs:**
+- API-requirementslijst voor stewardship-scenario's.
+- Governancecontrolepunten voor API-integraties.
 
 ## Task 1: Capturing Events
 
@@ -58,3 +71,4 @@ The Microsoft Purview Unified Catalog APIs can be used via a community-built Pyt
 **⏸️ Reflection:** You now have a better understanding of the Purview APIs available to your organization to build, extend and automate aspects of Microsoft Purview Data Governance. Lastly, let's review the pricing and licensing for Microsoft Purview.
 
 👉 [Continue: Lab 15](./Lab-15%20-%20Pricing%20and%20Licensing.md)
+

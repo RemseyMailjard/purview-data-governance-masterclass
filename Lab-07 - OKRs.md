@@ -1,6 +1,19 @@
 ![Banner](./assets/banner.png)
 
-# Lab 7: Objectives and Key Results (OKRs)
+# Lab 7: Objectives and Key Results (OKRs)
+
+## ProRail-context voor Data Stewards
+
+**Praktijkkader (ProRail):** Governance-OKRs moeten aantoonbaar bijdragen aan veiligheid, beschikbaarheid en voorspelbaarheid van het spoor.
+
+**Rolfocus Data Steward:**
+- Vertaal governance-werk naar meetbare verbeterdoelen.
+- Definieer indicatoren voor datakwaliteit, adoptie en doorlooptijd.
+- Koppel OKRs aan kwartaalritme en domeinverantwoordelijkheid.
+
+**Op te leveren bewijs:**
+- Concept-OKR set per governance-domein.
+- Meetplan met bron, eigenaar en rapportagecadans.
 
 ## Task 1: Creating OKRs
 
@@ -62,3 +75,4 @@ The back on the governance domain's OKR overview page, you can now see the objec
 **⏸️ Reflection:** Now that you have seen how Purview's implementation of OKRs can be used to link business objectives to Data products. How do you think this will help your organization? What are some of the challenges you foresee in maintaining these links as the business evolves?
 
 👉 [Continue: Lab 8](./Lab-08%20-%20Health%20Management%20Controls.md)
+

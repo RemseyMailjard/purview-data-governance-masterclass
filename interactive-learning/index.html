@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Purview Masterclass | Interactieve Leeromgeving</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow bg-glow-a" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow-b" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-kicker">ProRail x Purview</span>
+        <h1>Interactieve Leeromgeving</h1>
+      </div>
+      <div class="topbar-actions">
+        <label for="lab-search" class="sr-only">Zoek in labs</label>
+        <input id="lab-search" type="search" placeholder="Zoek op lab of onderwerp..." />
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="panel panel-labs" aria-label="Labs navigatie">
+        <div class="panel-header">
+          <h2>Labs</h2>
+          <p id="progress-summary">0/15 voltooid</p>
+        </div>
+        <div class="progress-wrap" aria-hidden="true">
+          <div id="overall-progress" class="progress-fill"></div>
+        </div>
+        <ol id="lab-list" class="lab-list"></ol>
+      </aside>
+
+      <section class="panel panel-content" aria-live="polite">
+        <div class="content-toolbar">
+          <button id="prev-lab" class="btn-secondary" type="button">Vorige</button>
+          <button id="toggle-complete" class="btn-primary" type="button">Markeer als voltooid</button>
+          <button id="next-lab" class="btn-secondary" type="button">Volgende</button>
+        </div>
+
+        <article id="content" class="markdown-body">
+          <p>Laden...</p>
+        </article>
+      </section>
+
+      <aside class="panel panel-study" aria-label="Studie hulpmiddelen">
+        <section class="study-section">
+          <h2>Taak-checklist</h2>
+          <ul id="task-list" class="task-list"></ul>
+        </section>
+
+        <section class="study-section">
+          <h2>Jouw notities</h2>
+          <label for="lab-notes" class="sr-only">Notities per lab</label>
+          <textarea id="lab-notes" placeholder="Schrijf hier reflecties, actiepunten of vragen..."></textarea>
+          <p class="hint">Notities worden lokaal opgeslagen in je browser.</p>
+        </section>
+      </aside>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

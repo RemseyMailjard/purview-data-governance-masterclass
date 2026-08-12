@@ -1,6 +1,19 @@
 ![Banner](./assets/banner.png)
 
-# Lab 9: Data Quality Management
+# Lab 9: Data Quality Management
+
+## ProRail-context voor Data Stewards
+
+**Praktijkkader (ProRail):** Data quality richt zich op datasets die besluiten over onderhoud, capaciteit en storingsaanpak sturen.
+
+**Rolfocus Data Steward:**
+- Definieer kwaliteitsregels per kritisch data-element.
+- Evalueer trendontwikkeling van kwaliteit over tijd.
+- Borg dat kwaliteitsissues direct leiden tot actie-eigenaarschap.
+
+**Op te leveren bewijs:**
+- Kwaliteitsregelcatalogus voor kritieke data-elementen.
+- Baseline-rapport met eerste kwaliteitsmeting.
 
 ## Task 1: Introduction to Data Quality
 
@@ -276,3 +289,4 @@ Follow the steps in this tutorial to set up a data quality alert: [Set up a data
 The next lab will focus on Health Management Actions; reviewing, and remediating Data quality issues and Data estate health issues.
 
 👉 [Continue: Lab 10](./Lab-10%20-%20Health%20Management%20Actions.md)
+

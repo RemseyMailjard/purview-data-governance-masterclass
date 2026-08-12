@@ -1,6 +1,19 @@
 ![Banner](./assets/banner.png)
 
-# Lab 4: Governance Domains and Terms
+# Lab 4: Governance Domains and Terms
+
+## ProRail-context voor Data Stewards
+
+**Praktijkkader (ProRail):** Richt governance-domeinen in rond infrastructuur, veiligheid, operatie, capaciteit en financiën met eenduidige begrippen.
+
+**Rolfocus Data Steward:**
+- Harmoniseer termen als "storing", "beschikbaarheid", "kritisch asset" en "doorlooptijd".
+- Leg businessdefinities vast inclusief bron, eigenaar en kwaliteitsverwachting.
+- Borg versiebeheer op glossary-termen.
+
+**Op te leveren bewijs:**
+- Glossary-set met minimaal 20 ProRail-kerntermen.
+- Toewijzing per term: eigenaar, steward en reviewfrequentie.
 
 ## Task 1: Creating Governance Domains
 
@@ -150,3 +163,4 @@ Please note that in order for a term to be visible to business users via the Ent
 **⏸️ Reflection:** At this point you have implemented one or more governance domains and articulated the value of business concepts over your physical data estate to assist in data governance. You have also created glossary terms to provide context to your data assets. Ready to move on?
 
 👉 [Continue: Lab 5](./Lab-05%20-%20Curating%20Data%20Assets.md)
+

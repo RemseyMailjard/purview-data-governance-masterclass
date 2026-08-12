@@ -1,6 +1,19 @@
 ![Banner](./assets/banner.png)
 
-# Lab 12: Business Continuity and Disaster Recovery
+# Lab 12: Business Continuity and Disaster Recovery
+
+## ProRail-context voor Data Stewards
+
+**Praktijkkader (ProRail):** Continuiteit van data governance moet ook tijdens verstoringen in systemen of leveranciersketens overeind blijven.
+
+**Rolfocus Data Steward:**
+- Identificeer single points of failure in data-aanlevering.
+- Definieer fallback-processen voor kritieke rapportages.
+- Stem governance-continuiteitsmaatregelen af met crisisprocessen.
+
+**Op te leveren bewijs:**
+- Continuiteitschecklist voor kritieke dataflows.
+- Oefenscenario voor uitval van kernbron met herstelplan.
 
 ## Task 1: Understand your Responsibilities
 
@@ -51,3 +64,4 @@ In most cases, an organization wouldn't deem their internal data governance tool
 **⏸️ Reflection:** You just learnt the business continuity and disaster recovery options available to you in Microsoft Purview. Now let's see what you can do with the APIs and SDKs.
 
 👉 [Continue: Lab 14](./Lab-14%20-%20Custom%20API%20Functionality.md)
+

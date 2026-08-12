@@ -1,6 +1,19 @@
 ![Banner](./assets/banner.png)
 
-# Lab 14: Pricing and Licensing
+# Lab 14: Pricing and Licensing
+
+## ProRail-context voor Data Stewards
+
+**Praktijkkader (ProRail):** Kostensturing richt zich op maximale governance-impact voor kritieke assets binnen beschikbare budgetten.
+
+**Rolfocus Data Steward:**
+- Segmenteer governed assets op waarde en risico.
+- Definieer criteria voor wanneer een asset governance-ready is.
+- Monitor kosten versus adoptie en kwaliteitswinst per domein.
+
+**Op te leveren bewijs:**
+- Besliskader voor wel/niet cureren van assets.
+- Kwartaaloverzicht met kosten, gebruik en governance-opbrengst.
 
 ## Task 1: Understanding Operational Costs
 
@@ -97,3 +110,4 @@ Microsoft Purview provides an overview of the Cumulative governed assets and Dat
 **⏸️ Reflection:** Great job! You have made it to the end of the labs. This is a significant milestone in your learning journey. You have learned how to set up and configure Microsoft Purview, how to scan and classify data, and how to use the Unified Catalog to search and federate data governance.
 
 🏁 [Complete: Back to Overview](./README.md)
+

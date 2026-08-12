@@ -1,6 +1,19 @@
 ![Banner](./assets/banner.png)
 
-# Lab 10: Data Estate Health Actions
+# Lab 10: Data Estate Health Actions
+
+## ProRail-context voor Data Stewards
+
+**Praktijkkader (ProRail):** Acties op health alerts moeten kortcyclisch zijn en aansluiten op operationele prioriteit.
+
+**Rolfocus Data Steward:**
+- Standaardiseer triage van alerts (laag, middel, hoog).
+- Wijs eigenaars toe per actietype en domein.
+- Meet doorlooptijd van detectie tot herstel.
+
+**Op te leveren bewijs:**
+- Actieplaybook voor alert-gedreven governance.
+- Overzicht van SLA-doelen voor herstelacties.
 
 **⏰ Duration:** 30 minutes
 
@@ -76,3 +89,4 @@ Health actions can be filtered by the following criteria:
 **⏸️ Reflection:** You just learnt how to use the Health Actions tool to manage the actions required to improve the health of your data estate. Now let's see what you can do with the Health Management Reports.
 
 👉 [Continue: Lab 11](./Lab-11%20-%20Health%20Management%20Reports.md)
+

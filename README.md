@@ -26,6 +26,14 @@ Allow for a 15-minute break at least every 90 minutes (at the facilitator's disc
 
 This masterclass is designed for: Data Stewards, Data Governance Managers, Domain/Business Owners, and Data Security Specialists who have a fundamental understanding of Data Governance and terminology.
 
+## ProRail Data Steward Focus
+
+For a ProRail-specific facilitation approach aimed at Data Stewards, use the playbook here:
+
+- [ProRail Data Steward Playbook](./Data-Steward-Playbook-ProRail.md)
+
+Each lab now also contains a **ProRail-context voor Data Stewards** section with practical role-focused outcomes and expected evidence.
+
 ## 📋 Attendee Pre-requisites
 
 Each attendee should have access to the Purview portal at [purview.microsoft.com](https://purview.microsoft.com) and be granted permission to administer the Unified Catalog (either temporarily or permanently) for the purpose of this workshop.
@@ -93,6 +101,20 @@ Throughout the labs, you will see the following icons. Take a minute to familiar
 ## Ready to Start?
 
 👉 [Continue: Introductions & Exec Overview](./Lab-01%20-%20Introduction%20and%20Overview.md)
+
+## Interactive Learning Environment
+
+An interactive web-based learning environment for all 15 labs is available in [interactive-learning](./interactive-learning/).
+
+To run it locally, start a simple web server from the repository root and open:
+
+`http://localhost:5500/interactive-learning/`
+
+Example using Python:
+
+```bash
+python -m http.server 5500
+```
 
 ## Trademarks
 

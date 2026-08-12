@@ -1,6 +1,19 @@
 ![Banner](./assets/banner.png)
 
-# Lab 2: Designing the Data Map
+# Lab 2: Designing the Data Map
+
+## ProRail-context voor Data Stewards
+
+**Praktijkkader (ProRail):** Ontwerp het datalandschap rond spoor-assets, baanvakken, stations, materieelketens en planningssystemen.
+
+**Rolfocus Data Steward:**
+- Definieer collections per operationeel domein en regio.
+- Borg dat lineage voor kritieke rapportages (capaciteit, punctualiteit, storingen) traceerbaar is.
+- Label bronnen op kritikaliteit (operationeel, tactisch, strategisch).
+
+**Op te leveren bewijs:**
+- Een voorgestelde domain/collection structuur met naamconventies.
+- Een lijst met prioritaire bronnen voor eerste onboarding.
 
 ## Task 1: Consider the Design
 
@@ -165,3 +178,4 @@ After registration, the Status should appear as: `Connected`
 Lastly, you learned about the benefit of data lineage, how ETL tools like Azure Data Factory and data sharing services like Azure Data Share. can be connected to Purview to provide lineage information.
 
 👉 [Continue: Lab 3](./Lab-03%20-%20Managing%20Data%20Sources.md)
+

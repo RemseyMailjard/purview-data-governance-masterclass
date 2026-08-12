@@ -1,6 +1,19 @@
 ![Banner](./assets/banner.png)
 
-# Lab 11: Health Management Reports
+# Lab 11: Health Management Reports
+
+## ProRail-context voor Data Stewards
+
+**Praktijkkader (ProRail):** Rapportages moeten stuurinformatie bieden voor domeinteams, management en auditors.
+
+**Rolfocus Data Steward:**
+- Bouw rapportages met focus op risico, trend en impact.
+- Maak onderscheid tussen operationele en bestuurlijke rapportage.
+- Borg herleidbaarheid van KPI-waarden naar brondata.
+
+**Op te leveren bewijs:**
+- Rapportagesjabloon voor maandelijkse governance-review.
+- KPI-definitielijst met eenduidige rekenregels.
 
 **⏰ Duration:** 30 minutes
 
@@ -182,3 +195,4 @@ This diagram illustrates the entity relationship for the domain model ([source](
 At this stage we have covered the key portal interactions by various Discovery, Curation, and Reporting personas. In the next lab, you will learn about the Business Continuity approach to Microsoft Purview.
 
 👉 [Continue: Lab 12](./Lab-12%20-%20Observability.md)
+

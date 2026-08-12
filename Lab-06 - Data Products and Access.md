@@ -1,6 +1,19 @@
 ![Banner](./assets/banner.png)
 
-# Lab 6: Mastering Data Products & Data Access
+# Lab 6: Mastering Data Products & Data Access
+
+## ProRail-context voor Data Stewards
+
+**Praktijkkader (ProRail):** Data products ondersteunen ketens zoals planning, uitvoering, storingsanalyse en beleidsrapportage.
+
+**Rolfocus Data Steward:**
+- Definieer productgrenzen en minimale kwaliteitsvereisten.
+- Ontwerp toegangsbeleid volgens least privilege en operationele noodzaak.
+- Leg afhandelingstijden voor toegangsvragen vast.
+
+**Op te leveren bewijs:**
+- Data product canvas per prioritaire use-case.
+- Standaard toegangsmatrix met rollen en goedkeuringsflow.
 
 ## Task 1: Creating Data Products
 
@@ -71,3 +84,4 @@ While its tempting to create a one-to-one mapping between data assets and Data p
 **✨ Pro Tip:** Remember that you are aiming for a federated data governance model. The task of maintaining data products and access isn't all on you.
 
 👉 [Continue: Lab 7](./Lab-07%20-%20OKRs.md)
+

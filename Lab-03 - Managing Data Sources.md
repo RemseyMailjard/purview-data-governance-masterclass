@@ -1,6 +1,19 @@
 ![Banner](./assets/banner.png)
 
-# Lab 3: Managing Data Sources
+# Lab 3: Managing Data Sources
+
+## ProRail-context voor Data Stewards
+
+**Praktijkkader (ProRail):** Registreer en scan bronnen zoals assetregisters, sensordata, planningsdata, incidentregistraties en leveranciersbestanden.
+
+**Rolfocus Data Steward:**
+- Classificeer bronnen op betrouwbaarheid, actualiteit en eigenaarschap.
+- Definieer scanfrequenties op basis van operationele impact.
+- Leg uitzonderingen vast voor legacy- of externe databronnen.
+
+**Op te leveren bewijs:**
+- Bronregister met steward-eigenaar, SLA en scanritme.
+- Beslisnotitie voor bronnen met verhoogd governance-risico.
 
 ## Task 1: Registering Data Sources
 
@@ -257,3 +270,4 @@ Each time a data source is onboarded, you will (roughly) follow these steps:
 Before you leave, review this section again to understand what is required as your organization connects new data sources or scales Purview across the data estate.
 
 👉 [Continue: Lab 4](./Lab-04%20-%20Governance%20Domains%20and%20Terms.md)
+

@@ -1,6 +1,19 @@
 ![Banner](./assets/banner.png)
 
-# Lab 5: Curating Data Assets
+# Lab 5: Curating Data Assets
+
+## ProRail-context voor Data Stewards
+
+**Praktijkkader (ProRail):** Curatie richt zich op datasets die direct gebruikt worden voor netwerkprestaties, onderhoudskeuzes en veiligheidsrapportages.
+
+**Rolfocus Data Steward:**
+- Verrijk assets met duidelijke beschrijvingen en gebruikscontext.
+- Koppel assets aan relevante termen, domeinen en kwaliteitsstatus.
+- Markeer assets die alleen geschikt zijn voor intern operationeel gebruik.
+
+**Op te leveren bewijs:**
+- Curatiechecklist voor ProRail-kritieke assets.
+- Voorbeeldset van volledig gecureerde assets per domein.
 
 ## Task 1: Curating Data Assets
 
@@ -78,3 +91,4 @@ With several data assets now curated, it is time to browse and discover these in
 **⏸️ Reflection:** Now that you have learned the basics of data asset curation, what are some of the challenges you foresee in getting business units to curate their data assets? How can you overcome these challenges?
 
 👉 [Continue: Lab 6](./Lab-06%20-%20Data%20Products%20and%20Access.md)
+

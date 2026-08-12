@@ -1,6 +1,19 @@
 ![Banner](./assets/banner.png)
 
-# Lab 1: Introduction & Executive Overview
+# Lab 1: Introduction & Executive Overview
+
+## ProRail-context voor Data Stewards
+
+**Praktijkkader (ProRail):** Positioneer data governance als randvoorwaarde voor veilig, voorspelbaar en planbaar spoorgebruik over assets, stations, logistiek en onderhoud.
+
+**Rolfocus Data Steward:**
+- Breng per domein (Infra, Verkeer, Onderhoud, Veiligheid) de belangrijkste data-eigenaren en beslissers in kaart.
+- Leg vast welke kritieke definities direct impact hebben op capaciteit, punctualiteit en veiligheid.
+- Prioriteer drie governance use-cases voor de eerste 90 dagen.
+
+**Op te leveren bewijs:**
+- Een eerste steward-stakeholdermap.
+- Een top-10 lijst van kritieke datatermen voor ProRail.
 
 ## Task 1: Opening Welcome & Introductions
 
@@ -87,3 +100,4 @@ Well done! This part Lab has shown you to the value of Microsoft Purview for fed
 **⏸️ Reflection:** At this point in the masterclass, you have learnt the value of Microsoft Purview and how a federated data governance model can be adopted to scale enterprise-wide.
 
 👉 [Continue: Lab 2](./Lab-02%20-%20Designing%20the%20Data%20Map.md)
+
