@@ -15,6 +15,22 @@
 - Continuiteitschecklist voor kritieke dataflows.
 - Oefenscenario voor uitval van kernbron met herstelplan.
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Vraag welke dataset absoluut beschikbaar moet blijven bij verstoringen.
+
+**Leerroute:**
+- Inventariseer single points of failure in bronnen en processen.
+- Werk per kritisch scenario een fallback uit.
+- Oefen besluitvorming onder tijdsdruk met rolverdeling.
+
+**Reflectievragen voor data stewards:**
+- Welke afhankelijkheid maakt ons het meest kwetsbaar?
+- Welke handmatige fallback is realistisch binnen 24 uur?
+
+**Exit-ticket (2 min):** Benoem 1 continuiteitsmaatregel die direct getest wordt.
+
 ## Task 1: Understand your Responsibilities
 
 **⏰ Duration:** 15 minutes
@@ -64,4 +80,7 @@ In most cases, an organization wouldn't deem their internal data governance tool
 **⏸️ Reflection:** You just learnt the business continuity and disaster recovery options available to you in Microsoft Purview. Now let's see what you can do with the APIs and SDKs.
 
 👉 [Continue: Lab 14](./Lab-14%20-%20Custom%20API%20Functionality.md)
+
+
+
 

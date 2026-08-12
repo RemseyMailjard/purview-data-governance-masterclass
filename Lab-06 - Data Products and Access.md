@@ -15,6 +15,22 @@
 - Data product canvas per prioritaire use-case.
 - Standaard toegangsmatrix met rollen en goedkeuringsflow.
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Vraag welke gebruikersgroepen momenteel het langst wachten op datatoegang.
+
+**Leerroute:**
+- Definieer eerst het besluit waarvoor het data product nodig is.
+- Werk daarna productgrenzen en kwaliteitsvoorwaarden uit.
+- Ontwerp tenslotte een toegangsflow op basis van least privilege.
+
+**Reflectievragen voor data stewards:**
+- Welke toegangsvraag is terugkerend en kan gestandaardiseerd worden?
+- Welke kwaliteitsvoorwaarde is essentieel voordat een product gepubliceerd wordt?
+
+**Exit-ticket (2 min):** Noteer 1 toegangsregel die direct in beleid moet worden opgenomen.
+
 ## Task 1: Creating Data Products
 
 **⏰ Duration:** 20 minutes
@@ -84,4 +100,7 @@ While its tempting to create a one-to-one mapping between data assets and Data p
 **✨ Pro Tip:** Remember that you are aiming for a federated data governance model. The task of maintaining data products and access isn't all on you.
 
 👉 [Continue: Lab 7](./Lab-07%20-%20OKRs.md)
+
+
+
 

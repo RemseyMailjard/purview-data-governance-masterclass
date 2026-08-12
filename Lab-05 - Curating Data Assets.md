@@ -15,6 +15,22 @@
 - Curatiechecklist voor ProRail-kritieke assets.
 - Voorbeeldset van volledig gecureerde assets per domein.
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Laat deelnemers een asset tonen die moeilijk te begrijpen is zonder extra context.
+
+**Leerroute:**
+- Vergelijk eerst ongecureerde versus gecureerde assets.
+- Laat teams daarna drie assets volledig cureren met dezelfde checklist.
+- Bespreek hoe ratings/comments organisatorisch gebruikt worden zonder kwaliteit te verwarren.
+
+**Reflectievragen voor data stewards:**
+- Welke metadata ontbreekt het vaakst voor hergebruik in de operatie?
+- Wanneer keur je een asset af voor brede publicatie?
+
+**Exit-ticket (2 min):** Leg 1 minimale curatiestandaard vast die vanaf nu verplicht is.
+
 ## Task 1: Curating Data Assets
 
 > Microsoft Purview Solution: Unified Catalog
@@ -91,4 +107,7 @@ With several data assets now curated, it is time to browse and discover these in
 **⏸️ Reflection:** Now that you have learned the basics of data asset curation, what are some of the challenges you foresee in getting business units to curate their data assets? How can you overcome these challenges?
 
 👉 [Continue: Lab 6](./Lab-06%20-%20Data%20Products%20and%20Access.md)
+
+
+
 

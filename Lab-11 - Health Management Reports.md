@@ -19,6 +19,21 @@
 
 **🎯 Outcome:** At the end of this lab you will understand which reports are available out of the box and how to use them to improve the overall quality of your data estate.
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Vraag welke rapportages nu niet leiden tot concrete actie.
+
+**Leerroute:**
+- Maak onderscheid tussen operationele en bestuurlijke rapportages.
+- Ontwerp daarna een beperkte set KPI's met duidelijke definities.
+- Oefen storytelling: wat moet management hiermee besluiten?
+
+**Reflectievragen voor data stewards:**
+- Welke KPI is informatief maar niet stuurbaar?
+- Welke visualisatie helpt om risico sneller te begrijpen?
+
+**Exit-ticket (2 min):** Kies 1 KPI die je uitfaseert en 1 KPI die je toevoegt.
 ## Introduction
 
 Let's delve into the built-in reports provided by Purview to monitor and manage your data's health, ensuring its quality, compliance, and usability. These reports are essential for maintaining a healthy data estate and are crucial for making informed decisions about your data governance strategy.
@@ -195,4 +210,5 @@ This diagram illustrates the entity relationship for the domain model ([source](
 At this stage we have covered the key portal interactions by various Discovery, Curation, and Reporting personas. In the next lab, you will learn about the Business Continuity approach to Microsoft Purview.
 
 👉 [Continue: Lab 12](./Lab-12%20-%20Observability.md)
+
 

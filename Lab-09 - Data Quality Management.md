@@ -15,6 +15,22 @@
 - Kwaliteitsregelcatalogus voor kritieke data-elementen.
 - Baseline-rapport met eerste kwaliteitsmeting.
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Vraag welke datakwaliteitsfout in het afgelopen kwartaal de grootste impact had.
+
+**Leerroute:**
+- Kies kritieke data-elementen met directe operationele impact.
+- Definieer daarna regels voor volledigheid, tijdigheid en consistentie.
+- Bespreek trendanalyse: niet alleen incidenten, maar structurele patronen.
+
+**Reflectievragen voor data stewards:**
+- Welke kwaliteitsregel voorkomt het meeste herstelwerk achteraf?
+- Waar ontbreekt eigenaarschap na detectie van een kwaliteitsfout?
+
+**Exit-ticket (2 min):** Leg 1 quality rule inclusief eigenaar en responstijd vast.
+
 ## Task 1: Introduction to Data Quality
 
 > Microsoft Purview Solution: Unified Catalog
@@ -289,4 +305,7 @@ Follow the steps in this tutorial to set up a data quality alert: [Set up a data
 The next lab will focus on Health Management Actions; reviewing, and remediating Data quality issues and Data estate health issues.
 
 👉 [Continue: Lab 10](./Lab-10%20-%20Health%20Management%20Actions.md)
+
+
+
 

@@ -15,6 +15,22 @@
 - Glossary-set met minimaal 20 ProRail-kerntermen.
 - Toewijzing per term: eigenaar, steward en reviewfrequentie.
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Laat deelnemers drie veelgebruikte termen noemen die nu niet eenduidig worden gebruikt.
+
+**Leerroute:**
+- Begin met termen die direct operationele impact hebben (storing, beschikbaarheid, herstelduur).
+- Werk met een vast definitiesjabloon: betekenis, bron, eigenaar, kwaliteitsverwachting.
+- Sluit af met reviewafspraken per term.
+
+**Reflectievragen voor data stewards:**
+- Welke term leidt het vaakst tot verkeerde KPI-interpretatie?
+- Welke governance-domain grens is nu nog onduidelijk?
+
+**Exit-ticket (2 min):** Publiceer 1 definitie die direct als referentie gebruikt gaat worden.
+
 ## Task 1: Creating Governance Domains
 
 > Microsoft Purview Solution: Unified Catalog
@@ -163,4 +179,7 @@ Please note that in order for a term to be visible to business users via the Ent
 **⏸️ Reflection:** At this point you have implemented one or more governance domains and articulated the value of business concepts over your physical data estate to assist in data governance. You have also created glossary terms to provide context to your data assets. Ready to move on?
 
 👉 [Continue: Lab 5](./Lab-05%20-%20Curating%20Data%20Assets.md)
+
+
+
 

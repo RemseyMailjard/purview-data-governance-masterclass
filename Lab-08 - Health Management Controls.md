@@ -19,6 +19,21 @@
 
 **🎯 Outcome:** At the end of this task you will understand the importance of data estate health and the tools provided by Purview to manage and maintain these.
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Laat teams benoemen welke health-signalen zij vandaag al monitoren.
+
+**Leerroute:**
+- Start met de acht controlpijlers en vertaal ze naar ProRail-risico's.
+- Laat vervolgens per domein 3 prioritaire controls kiezen.
+- Maak afspraken over thresholds en escalatie.
+
+**Reflectievragen voor data stewards:**
+- Welke control zou een incident eerder zichtbaar maken?
+- Welke threshold is nu te ruim of juist te streng?
+
+**Exit-ticket (2 min):** Bevestig 1 control die direct geactiveerd of aangescherpt wordt.
 ## Introduction
 
 Data estate health is the degree to which an organization's data assets are accurate, consistent, complete, accessible, secure, and compliant with business rules and regulations. Data estate health is a key factor for ensuring data quality, trust, and value for the organisation, across the data lifecycle.
@@ -259,4 +274,5 @@ Here is an example of a daily refresh schedule:
 **⏸️ Reflection:** The health control rules are a powerful tool to define how the quality of your data estate should be measured. How do you think you can use these rules to improve the quality of your data estate?
 
 👉 [Continue: Lab 9](./Lab-09%20-%20Data%20Quality%20Management.md)
+
 

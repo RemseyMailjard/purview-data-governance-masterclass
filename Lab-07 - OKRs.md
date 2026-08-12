@@ -15,6 +15,22 @@
 - Concept-OKR set per governance-domein.
 - Meetplan met bron, eigenaar en rapportagecadans.
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Laat deelnemers 1 huidige KPI noemen die geen goed sturingsgedrag oplevert.
+
+**Leerroute:**
+- Vertaal governance-activiteiten naar businessimpact.
+- Formuleer daarna 2-3 scherpe OKRs per domein.
+- Toets of elke key result meetbaar en eigenaar-gebonden is.
+
+**Reflectievragen voor data stewards:**
+- Welke metric zegt echt iets over databetrouwbaarheid in besluitvorming?
+- Waar sturen we nu op output in plaats van op effect?
+
+**Exit-ticket (2 min):** Kies 1 KR die per volgende maand in rapportage komt.
+
 ## Task 1: Creating OKRs
 
 > Microsoft Purview Solution: Unified Catalog
@@ -75,4 +91,7 @@ The back on the governance domain's OKR overview page, you can now see the objec
 **⏸️ Reflection:** Now that you have seen how Purview's implementation of OKRs can be used to link business objectives to Data products. How do you think this will help your organization? What are some of the challenges you foresee in maintaining these links as the business evolves?
 
 👉 [Continue: Lab 8](./Lab-08%20-%20Health%20Management%20Controls.md)
+
+
+
 

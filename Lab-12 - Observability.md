@@ -19,6 +19,21 @@
 
 **🎯 Outcome:** At the end of this lab you will understand the purpose and use of Observability in Purview Unified Catalog
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Laat teams één recente dataverstoring beschrijven inclusief ketenimpact.
+
+**Leerroute:**
+- Breng eerst afhankelijkheden in de dataketen in kaart.
+- Definieer daarna observability-signalen voor drift, latency en uitval.
+- Koppel elk signaal aan een herstelactie en eigenaar.
+
+**Reflectievragen voor data stewards:**
+- Welk signaal zouden we eerder moeten zien om operationele schade te beperken?
+- Welke ketenschakel mist nu monitoring?
+
+**Exit-ticket (2 min):** Leg 1 nieuw observability-signaal vast met eigenaar.
 ## Introduction
 
 Purview data observability in the Microsoft Purview Unified Catalog provides a holistic, visual overview of your data estate’s health, lineage, and quality. It enables data stewards and governance teams to:
@@ -195,4 +210,5 @@ The indicator at the top right of the screen will show that the snapshot it cons
 This lab introduced Microsoft Purview data observability and how it provides visibility into the health, lineage, and quality of your data estate. It showed how to enable Catalog and Data Quality snapshot jobs, navigate the Observability views in Health Management, interpret lineage diagrams and data quality indicators, and use UI controls such as Scope to Selection, Show Lineage, Hide non‑governed assets, hierarchy filters, and Reset View. The lab also covered concept-specific views for governance domains and data products, and highlighted permission requirements and the importance of snapshot consistency.
 
 👉 [Continue: Lab 13](./Lab-13%20-%20Business%20Continuity.md)
+
 

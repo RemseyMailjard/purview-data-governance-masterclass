@@ -19,6 +19,21 @@
 
 **🎯 Outcome:** At the end of this lab you will understand how to use Data Estate Health Actions to improve the overall health score of your data estate.
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Laat deelnemers aangeven hoe alerts nu worden opgevolgd in hun team.
+
+**Leerroute:**
+- Begin met een gezamenlijk triagemodel (hoog/middel/laag).
+- Oefen vervolgens toewijzing en statusovergangen op echte scenario's.
+- Evalueer als laatste doorlooptijd en bottlenecks in opvolging.
+
+**Reflectievragen voor data stewards:**
+- Welke alerts blijven nu te lang open en waarom?
+- Wanneer is een actie echt opgelost versus administratief afgesloten?
+
+**Exit-ticket (2 min):** Definieer 1 SLA-afspraak voor high-severity acties.
 ## Introduction
 
 In the sections on Health Management Controls (covered in [Lab 08](./Lab-08%20-%20Health%20Management%20Controls.md)) and Data Quality Management (covered in [Lab 09](./Lab-09%20-%20Data%20Quality%20Management.md)), we looked at how to configure the rules that determine the quality score of each of your health controls. In this section we will focus on the Data Estate Health Actions and how to use these to improve the overall health score of your data estate.
@@ -89,4 +104,5 @@ Health actions can be filtered by the following criteria:
 **⏸️ Reflection:** You just learnt how to use the Health Actions tool to manage the actions required to improve the health of your data estate. Now let's see what you can do with the Health Management Reports.
 
 👉 [Continue: Lab 11](./Lab-11%20-%20Health%20Management%20Reports.md)
+
 

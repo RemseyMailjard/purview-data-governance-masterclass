@@ -15,6 +15,22 @@
 - Bronregister met steward-eigenaar, SLA en scanritme.
 - Beslisnotitie voor bronnen met verhoogd governance-risico.
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Vraag per tafel welke bron het vaakst discussie geeft over actualiteit of betrouwbaarheid.
+
+**Leerroute:**
+- Laat teams bronnen classificeren op impact (hoog/middel/laag).
+- Koppel per bron een steward, eigenaar en gewenst scanritme.
+- Bespreek expliciet welke legacy- of leveranciersbronnen uitzonderingen vragen.
+
+**Reflectievragen voor data stewards:**
+- Welke bron kent het grootste risico op verouderde metadata?
+- Waar ontbreekt nu formeel eigenaarschap voor bronkwaliteit?
+
+**Exit-ticket (2 min):** Noteer 1 bron die binnen 2 weken governance-ready moet zijn en wie dit trekt.
+
 ## Task 1: Registering Data Sources
 
 > Microsoft Purview Solution: Data Map
@@ -270,4 +286,7 @@ Each time a data source is onboarded, you will (roughly) follow these steps:
 Before you leave, review this section again to understand what is required as your organization connects new data sources or scales Purview across the data estate.
 
 👉 [Continue: Lab 4](./Lab-04%20-%20Governance%20Domains%20and%20Terms.md)
+
+
+
 

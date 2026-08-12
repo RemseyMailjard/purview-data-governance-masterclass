@@ -15,6 +15,22 @@
 - API-requirementslijst voor stewardship-scenario's.
 - Governancecontrolepunten voor API-integraties.
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Laat deelnemers benoemen welke governance-stap zij het liefst automatiseren.
+
+**Leerroute:**
+- Start met businesswaarde: welk probleem lost de API-integratie op?
+- Definieer daarna minimale metadata-, autorisatie- en auditvereisten.
+- Sluit af met een make/buy/no-build afweging inclusief beheerlast.
+
+**Reflectievragen voor data stewards:**
+- Welke integratie levert direct minder handmatig werk op?
+- Welke risico's ontstaan als eigenaarschap voor API-beheer onduidelijk blijft?
+
+**Exit-ticket (2 min):** Leg 1 API-use-case vast met eigenaar, baten en randvoorwaarden.
+
 ## Task 1: Capturing Events
 
 **⏰ Duration:** 20 minutes
@@ -71,4 +87,7 @@ The Microsoft Purview Unified Catalog APIs can be used via a community-built Pyt
 **⏸️ Reflection:** You now have a better understanding of the Purview APIs available to your organization to build, extend and automate aspects of Microsoft Purview Data Governance. Lastly, let's review the pricing and licensing for Microsoft Purview.
 
 👉 [Continue: Lab 15](./Lab-15%20-%20Pricing%20and%20Licensing.md)
+
+
+
 

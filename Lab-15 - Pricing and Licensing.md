@@ -15,6 +15,22 @@
 - Besliskader voor wel/niet cureren van assets.
 - Kwartaaloverzicht met kosten, gebruik en governance-opbrengst.
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Vraag welke governance-activiteiten nu als kostenpost worden gezien zonder zichtbare opbrengst.
+
+**Leerroute:**
+- Leg eerst het verschil uit tussen assetvolume en governancewaarde.
+- Prioriteer vervolgens assets op risico en bedrijfsimpact.
+- Verbind kosten aan concrete kwaliteits- en adoptieverbeteringen.
+
+**Reflectievragen voor data stewards:**
+- Welke assets moeten als eerste governed worden voor maximale impact?
+- Welke kostenmeter vraagt actief stuurgedrag van stewards?
+
+**Exit-ticket (2 min):** Definieer 1 beslisregel voor wel/niet cureren van assets.
+
 ## Task 1: Understanding Operational Costs
 
 > Microsoft Purview Solution: Settings
@@ -110,4 +126,7 @@ Microsoft Purview provides an overview of the Cumulative governed assets and Dat
 **⏸️ Reflection:** Great job! You have made it to the end of the labs. This is a significant milestone in your learning journey. You have learned how to set up and configure Microsoft Purview, how to scan and classify data, and how to use the Unified Catalog to search and federate data governance.
 
 🏁 [Complete: Back to Overview](./README.md)
+
+
+
 

@@ -15,6 +15,22 @@
 - Een eerste steward-stakeholdermap.
 - Een top-10 lijst van kritieke datatermen voor ProRail.
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Laat iedere deelnemer in 1 zin uitleggen wat het verschil is tussen data-eigenaarschap en data stewardship.
+
+**Leerroute:**
+- Start met persoonlijke context: welke governance-beslissing kost nu onnodig veel tijd?
+- Verbind daarna de groepsdiscussie aan ProRail-risico's: veiligheid, punctualiteit, beschikbaarheid.
+- Rond af met 3 expliciete keuzes voor de komende 90 dagen.
+
+**Reflectievragen voor data stewards:**
+- Welke definitie veroorzaakt vandaag de meeste interpretatieverschillen tussen teams?
+- Welke beslissing in de operatie moet als eerste beter ondersteund worden door betrouwbare data?
+
+**Exit-ticket (2 min):** Iedere deelnemer noteert 1 term die direct geharmoniseerd moet worden en 1 stakeholder die daarvoor nodig is.
+
 ## Task 1: Opening Welcome & Introductions
 
 **⏰ Duration:** 30 minutes
@@ -100,4 +116,7 @@ Well done! This part Lab has shown you to the value of Microsoft Purview for fed
 **⏸️ Reflection:** At this point in the masterclass, you have learnt the value of Microsoft Purview and how a federated data governance model can be adopted to scale enterprise-wide.
 
 👉 [Continue: Lab 2](./Lab-02%20-%20Designing%20the%20Data%20Map.md)
+
+
+
 

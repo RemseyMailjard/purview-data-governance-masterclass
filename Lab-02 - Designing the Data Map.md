@@ -15,6 +15,22 @@
 - Een voorgestelde domain/collection structuur met naamconventies.
 - Een lijst met prioritaire bronnen voor eerste onboarding.
 
+
+## Didactische versterking
+
+**Voorkennis-check (5 min):** Laat deelnemers op een whiteboard de belangrijkste bronsystemen van hun keten tekenen.
+
+**Leerroute:**
+- Gebruik eerst een visuele ketenkaart van bron naar rapportage.
+- Laat teams vervolgens collections ontwerpen per ProRail-domein en regio.
+- Eindig met een prioriteitenlijst: wat eerst onboarden en waarom.
+
+**Reflectievragen voor data stewards:**
+- Waar in de keten verliezen we nu herleidbaarheid van data?
+- Welke bronnen zijn bedrijfskritisch maar nog onvoldoende zichtbaar in de Data Map?
+
+**Exit-ticket (2 min):** Leg 1 concrete ontwerpregel vast voor naamgeving van domains/collections.
+
 ## Task 1: Consider the Design
 
 > Microsoft Purview Solution: Data Map
@@ -178,4 +194,7 @@ After registration, the Status should appear as: `Connected`
 Lastly, you learned about the benefit of data lineage, how ETL tools like Azure Data Factory and data sharing services like Azure Data Share. can be connected to Purview to provide lineage information.
 
 👉 [Continue: Lab 3](./Lab-03%20-%20Managing%20Data%20Sources.md)
+
+
+
 
