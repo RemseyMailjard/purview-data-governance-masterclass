@@ -1,19 +1,27 @@
 ![Banner](./assets/banner.png)
 
-# Lab 4: Governance Domains and Terms
+# Lab 4: Governance Domains and Terms
+
 
 ## ProRail-context voor Data Stewards
 
-**Praktijkkader (ProRail):** Richt governance-domeinen in rond infrastructuur, veiligheid, operatie, capaciteit en financiën met eenduidige begrippen.
+**Trainingsomgeving:** Je werkt in het governance-domein `Station Operations & Reliability`. De facilitator demonstreert de term **Station**; elk team werkt vervolgens een eigen term uit. *Alle definities zijn fictieve trainingsdefinities, geen officiële ProRail-terminologie.*
 
-**Rolfocus Data Steward:**
-- Harmoniseer termen als "storing", "beschikbaarheid", "kritisch asset" en "doorlooptijd".
-- Leg businessdefinities vast inclusief bron, eigenaar en kwaliteitsverwachting.
-- Borg versiebeheer op glossary-termen.
+**Praktijkkader (ProRail):** Leg eenduidige businessdefinities vast voor kernbegrippen uit de casus en koppel ze aan de juiste tabellen en kolommen.
+
+**Rolfocus Data Steward — termen per team:**
+- Team 01 → **Incident** (`dbo.Incidents`: `Incident_Type`, `Status`)
+- Team 02 → **Critical Incident** (`dbo.Incidents`: `Severity`, `Delay_Minutes`)
+- Team 03 → **Active Employee** (`dbo.Employees` + `dbo.StationAssignments`: `Employment_Status`, `Start_Date`, `End_Date`)
+- Team 04 → **Station Availability** (`dbo.StationDailyPerformance`: `Availability_Pct`)
+- Team 05 → **Completed Maintenance** (`dbo.MaintenanceRequests`: `Status`, `Completed_Date`)
+- Team 06 → **Operational Station** (`dbo.Stations`: `Operational_Status`)
+
+Werk per term uit: definitie, wat valt eronder, wat niet, uitzonderingen, eigenaar, gerelateerde asset en kolommen. De ambiguïteit is bewust — laat teams de grens bediscussiëren in plaats van een definitie voor te schrijven.
 
 **Op te leveren bewijs:**
-- Glossary-set met minimaal 20 ProRail-kerntermen.
-- Toewijzing per term: eigenaar, steward en reviewfrequentie.
+- Per team minimaal één gepubliceerde glossary-term met eigenaar en gekoppelde asset.
+- De demoterm `Station` gekoppeld aan `dbo.Stations`.
 
 
 ## Didactische versterking
@@ -34,11 +42,16 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-term-station
+- AB-term-critical-incident
+- AB-domain-station-operations
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
- 1: Creating Governance Domains
+
+## Task 1: Creating Governance Domains
 
 > Microsoft Purview Solution: Unified Catalog
 
@@ -186,6 +199,10 @@ Please note that in order for a term to be visible to business users via the Ent
 **⏸️ Reflection:** At this point you have implemented one or more governance domains and articulated the value of business concepts over your physical data estate to assist in data governance. You have also created glossary terms to provide context to your data assets. Ready to move on?
 
 👉 [Continue: Lab 5](./Lab-05%20-%20Curating%20Data%20Assets.md)
+
+
+
+
 
 
 

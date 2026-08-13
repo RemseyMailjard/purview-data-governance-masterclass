@@ -5,16 +5,18 @@
 
 ## ProRail-context voor Data Stewards
 
+**Trainingsomgeving:** Health actions ontstaan onder andere uit de data-quality-bevindingen in de RailData360-casus (bijvoorbeeld ontbrekende e-mail bij `EMP010` of referentiefouten `ST999`). *Alle data is fictief en uitsluitend bedoeld voor training.*
+
 **Praktijkkader (ProRail):** Acties op health alerts moeten kortcyclisch zijn en aansluiten op operationele prioriteit.
 
 **Rolfocus Data Steward:**
-- Standaardiseer triage van alerts (laag, middel, hoog).
-- Wijs eigenaars toe per actietype en domein.
-- Meet doorlooptijd van detectie tot herstel.
+- Standaardiseer triage van acties (laag/middel/hoog) op basis van impact op stuurinformatie.
+- Wijs een eigenaar toe per actie en volg de statusovergang (In Progress → Resolved).
+- Onthoud de stewardrol: identificeren, beoordelen en escaleren — niet zelf de brondata in SQL herstellen.
 
 **Op te leveren bewijs:**
-- Actieplaybook voor alert-gedreven governance.
-- Overzicht van SLA-doelen voor herstelacties.
+- Een actieplaybook voor de RailData360-kwaliteitsbevindingen.
+- Een SLA-afspraak voor high-severity acties.
 
 **⏰ Duration:** 30 minutes
 
@@ -40,8 +42,12 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-action-st999-integriteit
+- AB-action-emp010-email
+- AB-sla-herstel-dq
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
 
@@ -115,5 +121,8 @@ Health actions can be filtered by the following criteria:
 **⏸️ Reflection:** You just learnt how to use the Health Actions tool to manage the actions required to improve the health of your data estate. Now let's see what you can do with the Health Management Reports.
 
 👉 [Continue: Lab 11](./Lab-11%20-%20Health%20Management%20Reports.md)
+
+
+
 
 

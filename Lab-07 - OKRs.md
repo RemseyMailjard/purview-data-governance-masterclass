@@ -1,19 +1,22 @@
 ![Banner](./assets/banner.png)
 
-# Lab 7: Objectives and Key Results (OKRs)
+# Lab 7: Objectives and Key Results (OKRs)
+
 
 ## ProRail-context voor Data Stewards
 
-**Praktijkkader (ProRail):** Governance-OKRs moeten aantoonbaar bijdragen aan veiligheid, beschikbaarheid en voorspelbaarheid van het spoor.
+**Trainingsomgeving:** Koppel OKRs aan het domein `Station Operations & Reliability` en het gelijknamige data product. *Alle data is fictief en uitsluitend bedoeld voor training.*
+
+**Praktijkkader (ProRail):** Governance-OKRs moeten aantoonbaar bijdragen aan betrouwbare stuurinformatie over stationbeschikbaarheid, incidenten en onderhoud.
 
 **Rolfocus Data Steward:**
-- Vertaal governance-werk naar meetbare verbeterdoelen.
-- Definieer indicatoren voor datakwaliteit, adoptie en doorlooptijd.
-- Koppel OKRs aan kwartaalritme en domeinverantwoordelijkheid.
+- Vertaal het curatie- en kwaliteitswerk uit deze casus naar meetbare verbeterdoelen.
+- Definieer key results rond datakwaliteit, bijvoorbeeld: geen referentiële-integriteitsfouten (`ST999`, `EMP999`), volledige e-mailadressen in `Employees`, geldige `Availability_Pct`-waarden (0–100).
+- Koppel de OKR aan het data product `Station Operations & Reliability`.
 
 **Op te leveren bewijs:**
-- Concept-OKR set per governance-domein.
-- Meetplan met bron, eigenaar en rapportagecadans.
+- Een concept-OKR voor het domein `Station Operations & Reliability`.
+- Twee tot drie meetbare key results gekoppeld aan concrete tabellen/kolommen.
 
 
 ## Didactische versterking
@@ -34,11 +37,16 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-okr-betrouwbare-stationdata
+- AB-kr-referentiele-integriteit
+- AB-kr-volledigheid-employees
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
- 1: Creating OKRs
+
+## Task 1: Creating OKRs
 
 > Microsoft Purview Solution: Unified Catalog
 
@@ -98,6 +106,10 @@ The back on the governance domain's OKR overview page, you can now see the objec
 **⏸️ Reflection:** Now that you have seen how Purview's implementation of OKRs can be used to link business objectives to Data products. How do you think this will help your organization? What are some of the challenges you foresee in maintaining these links as the business evolves?
 
 👉 [Continue: Lab 8](./Lab-08%20-%20Health%20Management%20Controls.md)
+
+
+
+
 
 
 

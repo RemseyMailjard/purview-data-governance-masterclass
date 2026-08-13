@@ -5,16 +5,18 @@
 
 ## ProRail-context voor Data Stewards
 
-**Praktijkkader (ProRail):** Observability helpt verstoringen in dataketens vroegtijdig signaleren voordat operationele processen geraakt worden.
+**Trainingsomgeving:** De primaire lineage-asset is `dbo.vw_StationOperationsSummary`, conceptueel opgebouwd uit `dbo.Stations` + `dbo.StationDailyPerformance`. Stored procedure-lineage is bewust uitgeschakeld in de scan. *Alle data is fictief en uitsluitend bedoeld voor training.*
+
+**Praktijkkader (ProRail):** Observability en lineage helpen verstoringen in dataketens vroeg te signaleren voordat operationele rapportages geraakt worden.
 
 **Rolfocus Data Steward:**
-- Definieer signalen voor datadrift, latency en uitval.
-- Koppel observability-signalen aan concrete herstelacties.
-- Monitor afhankelijkheden tussen bron, transformatie en rapportage.
+- Verken de lineage: welke bron-assets voeden `vw_StationOperationsSummary`?
+- Redeneer over impact: als `Availability_Pct` upstream fout is, welke downstream-asset is dan geraakt en wie moet je informeren?
+- Bepaal of kennis van lineage je vertrouwen in het gebruik van de data verandert.
 
 **Op te leveren bewijs:**
-- Observability-minimumset voor kritieke dataproducten.
-- Incidentreviewformat met lessons learned.
+- Een lineagebeschrijving voor `vw_StationOperationsSummary` met bron-assets.
+- Eén observability-signaal met eigenaar voor het data product `Station Operations & Reliability`.
 
 **⏰ Duration:** 30 minutes
 
@@ -40,8 +42,12 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-lineage-station-ops-summary
+- AB-obs-availability-pct
+- AB-obs-station-ops-product
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
 
@@ -221,5 +227,8 @@ The indicator at the top right of the screen will show that the snapshot it cons
 This lab introduced Microsoft Purview data observability and how it provides visibility into the health, lineage, and quality of your data estate. It showed how to enable Catalog and Data Quality snapshot jobs, navigate the Observability views in Health Management, interpret lineage diagrams and data quality indicators, and use UI controls such as Scope to Selection, Show Lineage, Hide non‑governed assets, hierarchy filters, and Reset View. The lab also covered concept-specific views for governance domains and data products, and highlighted permission requirements and the importance of snapshot consistency.
 
 👉 [Continue: Lab 13](./Lab-13%20-%20Business%20Continuity.md)
+
+
+
 
 

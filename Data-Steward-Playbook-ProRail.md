@@ -58,3 +58,13 @@ Alle deelnemers werken in dezelfde Microsoft-omgeving. Daarom geldt voor alle oe
 - Voorbeelden: `JD-domain-spoorinfra`, `JD-term-beschikbaarheid`, `JD-control-metadata`.
 
 Deze afspraak maakt eigenaarschap direct zichtbaar en voorkomt dat teams elkaars objecten overschrijven.
+
+## Lab-specifieke naamsjablonen
+
+Gebruik onderstaande patronen als snelle kopieerbasis tijdens oefeningen:
+
+1. Labs 1-5: [INITIALEN]-term|domain|asset-[korte-naam]
+2. Labs 6-10: [INITIALEN]-dp|access|control|rule-[korte-naam]
+3. Labs 11-15: [INITIALEN]-report|obs|bcp|api|cost-[korte-naam]
+
+Tip: Houd dezelfde initialen en schrijfwijze de hele dag aan voor maximale traceerbaarheid.

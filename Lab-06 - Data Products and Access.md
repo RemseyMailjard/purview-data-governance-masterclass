@@ -1,19 +1,22 @@
 ![Banner](./assets/banner.png)
 
-# Lab 6: Mastering Data Products & Data Access
+# Lab 6: Mastering Data Products & Data Access
+
 
 ## ProRail-context voor Data Stewards
 
-**Praktijkkader (ProRail):** Data products ondersteunen ketens zoals planning, uitvoering, storingsanalyse en beleidsrapportage.
+**Trainingsomgeving:** Je bouwt het data product **Station Operations & Reliability** dat station-, incident-, onderhouds- en prestatiedata samenbrengt voor analyse van stationbetrouwbaarheid. Om conflicten te voorkomen kunnen teams een eigen product maken: `Team01 - Station Operations & Reliability`, enzovoort. *Alle data is fictief en uitsluitend bedoeld voor training.*
+
+**Praktijkkader (ProRail):** Een data product levert analisten en operationele stakeholders een geïntegreerd beeld van stations, incidenten, onderhoud en dagelijkse prestaties.
 
 **Rolfocus Data Steward:**
-- Definieer productgrenzen en minimale kwaliteitsvereisten.
-- Ontwerp toegangsbeleid volgens least privilege en operationele noodzaak.
-- Leg afhandelingstijden voor toegangsvragen vast.
+- Neem de kern-assets op: `dbo.Stations`, `dbo.Incidents`, `dbo.MaintenanceRequests`, `dbo.StationDailyPerformance`.
+- Beslis beargumenteerd of de discutabele assets `dbo.Employees` en `dbo.StationAssignments` in het product horen — er is bewust geen vast antwoord; redeneer vanuit de use case.
+- Ontwerp toegangsbeleid volgens least privilege voor consumenten zoals analisten.
 
 **Op te leveren bewijs:**
-- Data product canvas per prioritaire use-case.
-- Standaard toegangsmatrix met rollen en goedkeuringsflow.
+- Een gepubliceerd data product met kern-assets en gekoppelde glossary-termen.
+- Een onderbouwde beslissing over de discutabele assets.
 
 
 ## Didactische versterking
@@ -34,11 +37,16 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-dp-station-operations
+- AB-dp-team01-station-operations
+- AB-access-analist
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
- 1: Creating Data Products
+
+## Task 1: Creating Data Products
 
 **⏰ Duration:** 20 minutes
 
@@ -107,6 +115,10 @@ While its tempting to create a one-to-one mapping between data assets and Data p
 **✨ Pro Tip:** Remember that you are aiming for a federated data governance model. The task of maintaining data products and access isn't all on you.
 
 👉 [Continue: Lab 7](./Lab-07%20-%20OKRs.md)
+
+
+
+
 
 
 

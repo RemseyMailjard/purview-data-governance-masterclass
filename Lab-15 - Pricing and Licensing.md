@@ -1,19 +1,22 @@
 ![Banner](./assets/banner.png)
 
-# Lab 14: Pricing and Licensing
+# Lab 14: Pricing and Licensing
+
 
 ## ProRail-context voor Data Stewards
 
-**Praktijkkader (ProRail):** Kostensturing richt zich op maximale governance-impact voor kritieke assets binnen beschikbare budgetten.
+**Trainingsomgeving:** De "governed assets" in deze casus zijn de zes kerntabellen plus de views (`vw_StationOperationsSummary`, `vw_st_ops_tmp`, `vw_emp_ref_old` en de team-curation-views). *Alle data is fictief en uitsluitend bedoeld voor training.*
+
+**Praktijkkader (ProRail):** Kostensturing richt zich op maximale governance-impact voor de meest waardevolle assets binnen het budget.
 
 **Rolfocus Data Steward:**
-- Segmenteer governed assets op waarde en risico.
-- Definieer criteria voor wanneer een asset governance-ready is.
-- Monitor kosten versus adoptie en kwaliteitswinst per domein.
+- Segmenteer de RailData360-assets op waarde en risico (bijvoorbeeld `StationDailyPerformance` en `Incidents` eerst).
+- Bepaal welke views wel/niet als governed asset gecureerd hoeven te worden.
+- Verbind kosten aan concrete kwaliteits- en adoptiewinst binnen het data product `Station Operations & Reliability`.
 
 **Op te leveren bewijs:**
-- Besliskader voor wel/niet cureren van assets.
-- Kwartaaloverzicht met kosten, gebruik en governance-opbrengst.
+- Een besliskader voor wel/niet cureren van de RailData360-assets.
+- Een schatting van het aantal governed assets voor deze casus.
 
 
 ## Didactische versterking
@@ -34,11 +37,16 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-cost-raildata360-assets
+- AB-priority-kerntabellen
+- AB-sku-afweging-training
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
- 1: Understanding Operational Costs
+
+## Task 1: Understanding Operational Costs
 
 > Microsoft Purview Solution: Settings
 
@@ -133,6 +141,10 @@ Microsoft Purview provides an overview of the Cumulative governed assets and Dat
 **⏸️ Reflection:** Great job! You have made it to the end of the labs. This is a significant milestone in your learning journey. You have learned how to set up and configure Microsoft Purview, how to scan and classify data, and how to use the Unified Catalog to search and federate data governance.
 
 🏁 [Complete: Back to Overview](./README.md)
+
+
+
+
 
 
 

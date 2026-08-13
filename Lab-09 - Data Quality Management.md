@@ -1,19 +1,24 @@
 ![Banner](./assets/banner.png)
 
-# Lab 9: Data Quality Management
+# Lab 9: Data Quality Management
+
 
 ## ProRail-context voor Data Stewards
 
-**Praktijkkader (ProRail):** Data quality richt zich op datasets die besluiten over onderhoud, capaciteit en storingsaanpak sturen.
+**Trainingsomgeving:** De RailData360-dataset bevat bewust ingebouwde kwaliteitsfouten. Je taak als steward is deze te **identificeren → beoordelen → documenteren → escaleren → verifiëren** — niet om ze zelf in SQL te repareren. *Alle data is fictief en uitsluitend bedoeld voor training.*
 
-**Rolfocus Data Steward:**
-- Definieer kwaliteitsregels per kritisch data-element.
-- Evalueer trendontwikkeling van kwaliteit over tijd.
-- Borg dat kwaliteitsissues direct leiden tot actie-eigenaarschap.
+**Praktijkkader (ProRail):** Data quality richt zich op de datasets die besluiten over onderhoud, capaciteit en incidentaanpak sturen.
+
+**Rolfocus Data Steward — voorbeeldregels uit de casus (dimensie):**
+- Volledigheid: `Employees.Email` mag niet leeg zijn (fout: `EMP010`).
+- Uniciteit: `Employees.Employee_ID` moet uniek zijn (fout: dubbele `EMP019`).
+- Validiteit: `Employment_Status` ∈ {ACTIVE, LEAVE, INACTIVE} (fout: `MAYBE` bij EMP030); `Availability_Pct` tussen 0 en 100 (fouten: `104.20`, `-3.00`); `Delay_Minutes >= 0` (fout: `-5`).
+- Consistentie: `End_Date >= Start_Date`; `Resolved_At >= Reported_At`.
+- Referentiële integriteit: `Station_ID` bestaat in `Stations` (fout: `ST999`); `Employee_ID` bestaat in `Employees` (fout: `EMP999`).
 
 **Op te leveren bewijs:**
-- Kwaliteitsregelcatalogus voor kritieke data-elementen.
-- Baseline-rapport met eerste kwaliteitsmeting.
+- Een kwaliteitsregelcatalogus voor minimaal één kerntabel.
+- Een baseline-meting met de gevonden (ingebouwde) issues en het bijbehorende actie-eigenaarschap.
 
 
 ## Didactische versterking
@@ -34,11 +39,16 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-dq-employment-status-validity
+- AB-dq-availability-pct-range
+- AB-dq-station-id-integriteit
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
- 1: Introduction to Data Quality
+
+## Task 1: Introduction to Data Quality
 
 > Microsoft Purview Solution: Unified Catalog
 
@@ -312,6 +322,10 @@ Follow the steps in this tutorial to set up a data quality alert: [Set up a data
 The next lab will focus on Health Management Actions; reviewing, and remediating Data quality issues and Data estate health issues.
 
 👉 [Continue: Lab 10](./Lab-10%20-%20Health%20Management%20Actions.md)
+
+
+
+
 
 
 

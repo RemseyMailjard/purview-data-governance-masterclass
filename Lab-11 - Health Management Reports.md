@@ -5,16 +5,18 @@
 
 ## ProRail-context voor Data Stewards
 
-**Praktijkkader (ProRail):** Rapportages moeten stuurinformatie bieden voor domeinteams, management en auditors.
+**Trainingsomgeving:** De rapportages tonen de governance- en kwaliteitsstatus van het domein `Station Operations & Reliability` en de RailData360-assets. *Alle data is fictief en uitsluitend bedoeld voor training.*
+
+**Praktijkkader (ProRail):** Rapportages moeten stuurinformatie bieden over datakwaliteit, curatiegraad en eigenaarschap in de casus.
 
 **Rolfocus Data Steward:**
-- Bouw rapportages met focus op risico, trend en impact.
+- Interpreteer de Data Governance- en Data Quality-rapporten voor het domein `Station Operations & Reliability`.
+- Herleid KPI-waarden (bijvoorbeeld het aantal DQ-fouten) naar de onderliggende tabellen zoals `Incidents` en `StationDailyPerformance`.
 - Maak onderscheid tussen operationele en bestuurlijke rapportage.
-- Borg herleidbaarheid van KPI-waarden naar brondata.
 
 **Op te leveren bewijs:**
-- Rapportagesjabloon voor maandelijkse governance-review.
-- KPI-definitielijst met eenduidige rekenregels.
+- Een korte governance-review op basis van de ingebouwde rapporten.
+- Een KPI-definitielijst met eenduidige rekenregels voor de casus.
 
 **⏰ Duration:** 30 minutes
 
@@ -40,8 +42,12 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-report-station-ops-review
+- AB-kpi-dq-station-operations
+- AB-kpi-curatiegraad
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
 
@@ -221,5 +227,8 @@ This diagram illustrates the entity relationship for the domain model ([source](
 At this stage we have covered the key portal interactions by various Discovery, Curation, and Reporting personas. In the next lab, you will learn about the Business Continuity approach to Microsoft Purview.
 
 👉 [Continue: Lab 12](./Lab-12%20-%20Observability.md)
+
+
+
 
 

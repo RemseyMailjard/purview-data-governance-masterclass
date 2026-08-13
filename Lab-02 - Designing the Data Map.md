@@ -1,19 +1,22 @@
 ![Banner](./assets/banner.png)
 
-# Lab 2: Designing the Data Map
+# Lab 2: Designing the Data Map
+
 
 ## ProRail-context voor Data Stewards
 
-**Praktijkkader (ProRail):** Ontwerp het datalandschap rond spoor-assets, baanvakken, stations, materieelketens en planningssystemen.
+**Trainingsomgeving:** Het datalandschap voor deze masterclass bestaat uit één Azure SQL Database (`RailData360`) die als bron in de Data Map wordt geregistreerd binnen de collection `RailData360 Training`. *Alle data is fictief en uitsluitend bedoeld voor training.*
+
+**Praktijkkader (ProRail):** Ontwerp het datalandschap rond de casus **Station Operations & Reliability**: stations, medewerkers, inzet, incidenten, onderhoud en dagelijkse prestaties.
 
 **Rolfocus Data Steward:**
-- Definieer collections per operationeel domein en regio.
-- Borg dat lineage voor kritieke rapportages (capaciteit, punctualiteit, storingen) traceerbaar is.
-- Label bronnen op kritikaliteit (operationeel, tactisch, strategisch).
+- Ontwerp de logische structuur: het governance-domein `Station Operations & Reliability` gekoppeld aan de collection `RailData360 Training`.
+- Borg dat lineage voor de kernrapportage traceerbaar is: `Stations` + `StationDailyPerformance` → `vw_StationOperationsSummary`.
+- Bepaal welke van de zes kerntabellen als eerste onboarden op basis van operationele impact.
 
 **Op te leveren bewijs:**
-- Een voorgestelde domain/collection structuur met naamconventies.
-- Een lijst met prioritaire bronnen voor eerste onboarding.
+- Een voorgestelde domain/collection-structuur met naamconventies voor de RailData360-casus.
+- Een korte prioriteitenlijst: welke tabellen/views eerst cureren en waarom.
 
 
 ## Didactische versterking
@@ -34,11 +37,16 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-domain-station-operations
+- AB-collection-raildata360-training
+- AB-lineage-station-ops-summary
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
- 1: Consider the Design
+
+## Task 1: Consider the Design
 
 > Microsoft Purview Solution: Data Map
 
@@ -201,6 +209,10 @@ After registration, the Status should appear as: `Connected`
 Lastly, you learned about the benefit of data lineage, how ETL tools like Azure Data Factory and data sharing services like Azure Data Share. can be connected to Purview to provide lineage information.
 
 👉 [Continue: Lab 3](./Lab-03%20-%20Managing%20Data%20Sources.md)
+
+
+
+
 
 
 

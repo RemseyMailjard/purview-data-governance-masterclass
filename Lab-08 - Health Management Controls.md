@@ -5,16 +5,18 @@
 
 ## ProRail-context voor Data Stewards
 
-**Praktijkkader (ProRail):** Health controls monitoren datacondities die impact hebben op planning, onderhoud en incidentrespons.
+**Trainingsomgeving:** Health controls worden toegepast op de assets en het data product `Station Operations & Reliability`. *Alle data is fictief en uitsluitend bedoeld voor training.*
+
+**Praktijkkader (ProRail):** Health controls monitoren datacondities die impact hebben op de betrouwbaarheid van stuurinformatie over stations, incidenten en onderhoud.
 
 **Rolfocus Data Steward:**
-- Stel controls in voor volledigheid, actualiteit en consistentie.
-- Prioriteer controls op risico voor operatie en veiligheid.
-- Definieer escalatiepaden bij control-failures.
+- Beoordeel welke controls (metadata-volledigheid, eigenaarschap, beschrijving) op de RailData360-assets nog niet op orde zijn.
+- Vertaal de acht controlpijlers naar concrete assets zoals `dbo.Incidents` en `dbo.StationDailyPerformance`.
+- Definieer thresholds en een escalatiepad bij control-failures.
 
 **Op te leveren bewijs:**
-- Prioriteitenlijst met kritieke controls per domein.
-- Escalatiematrix met responstijden.
+- Een prioriteitenlijst met kritieke controls voor het domein `Station Operations & Reliability`.
+- Een escalatieafspraak met responstijd.
 
 **⏰ Duration:** 30 minutes
 
@@ -40,8 +42,12 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-control-metadata-stations
+- AB-threshold-volledigheid-incidents
+- AB-owner-health-station-ops
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
 
@@ -285,5 +291,8 @@ Here is an example of a daily refresh schedule:
 **⏸️ Reflection:** The health control rules are a powerful tool to define how the quality of your data estate should be measured. How do you think you can use these rules to improve the quality of your data estate?
 
 👉 [Continue: Lab 9](./Lab-09%20-%20Data%20Quality%20Management.md)
+
+
+
 
 

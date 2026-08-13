@@ -1,19 +1,22 @@
 ![Banner](./assets/banner.png)
 
-# Lab 5: Curating Data Assets
+# Lab 5: Curating Data Assets
+
 
 ## ProRail-context voor Data Stewards
 
-**Praktijkkader (ProRail):** Curatie richt zich op datasets die direct gebruikt worden voor netwerkprestaties, onderhoudskeuzes en veiligheidsrapportages.
+**Trainingsomgeving:** De casus bevat bewust slecht benoemde en slecht beschreven assets. Elk team cureert zijn eigen view om conflicten te voorkomen: oneven teams `vw_Curation_Team0X` (op basis van `vw_st_ops_tmp`), even teams `vw_Curation_Team0X` (op basis van `vw_emp_ref_old`). *Je cureert de metadata in Purview, niet de SQL-view zelf.*
+
+**Praktijkkader (ProRail):** Verrijk technische assets zodat een andere gebruiker ze zonder toelichting kan begrijpen en verantwoord kan hergebruiken.
 
 **Rolfocus Data Steward:**
-- Verrijk assets met duidelijke beschrijvingen en gebruikscontext.
-- Koppel assets aan relevante termen, domeinen en kwaliteitsstatus.
-- Markeer assets die alleen geschikt zijn voor intern operationeel gebruik.
+- Herken dat de data bestaat, maar de metadata arm is (bijvoorbeeld kolommen `stn_cd`, `dt`, `avl`, `inc`, `dly`, `mnt` in `vw_st_ops_tmp`).
+- Verbeter de beschrijving, verklaar de afkortingen, wijs een eigenaar toe en koppel relevante glossary-termen.
+- Schrijf afkortingen niet automatisch om naar "officiële" definities; documenteer of verhelder ze bewust.
 
 **Op te leveren bewijs:**
-- Curatiechecklist voor ProRail-kritieke assets.
-- Voorbeeldset van volledig gecureerde assets per domein.
+- Per team één gecureerde curation-view met verbeterde beschrijving, eigenaar en gekoppelde termen.
+- Een korte beoordeling: is de asset begrijpelijk genoeg voor een andere gebruiker?
 
 
 ## Didactische versterking
@@ -34,11 +37,16 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-curatie-vw-st-ops-tmp
+- AB-curatie-team01
+- AB-tag-onduidelijke-metadata
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
- 1: Curating Data Assets
+
+## Task 1: Curating Data Assets
 
 > Microsoft Purview Solution: Unified Catalog
 
@@ -114,6 +122,10 @@ With several data assets now curated, it is time to browse and discover these in
 **⏸️ Reflection:** Now that you have learned the basics of data asset curation, what are some of the challenges you foresee in getting business units to curate their data assets? How can you overcome these challenges?
 
 👉 [Continue: Lab 6](./Lab-06%20-%20Data%20Products%20and%20Access.md)
+
+
+
+
 
 
 

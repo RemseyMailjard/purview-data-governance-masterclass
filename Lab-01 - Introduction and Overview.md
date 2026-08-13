@@ -1,19 +1,22 @@
 ![Banner](./assets/banner.png)
 
-# Lab 1: Introduction & Executive Overview
+# Lab 1: Introduction & Executive Overview
+
 
 ## ProRail-context voor Data Stewards
 
-**Praktijkkader (ProRail):** Positioneer data governance als randvoorwaarde voor veilig, voorspelbaar en planbaar spoorgebruik over assets, stations, logistiek en onderhoud.
+**Trainingsomgeving:** Je werkt in de fictieve casus **Station Operations & Reliability** (RailData360). De brondatabase `RailData360` bevat zes kerntabellen — `Stations`, `Employees`, `StationAssignments`, `Incidents`, `MaintenanceRequests` en `StationDailyPerformance` — plus enkele views. In Microsoft Purview werk je in het governance-domein `Station Operations & Reliability` en de Data Map-collection `RailData360 Training`. *Alle data en businessdefinities in deze trainingsomgeving zijn fictief en uitsluitend bedoeld voor trainingsdoeleinden; het zijn geen officiële ProRail-definities of -data.*
+
+**Praktijkkader (ProRail):** Positioneer data governance als randvoorwaarde voor veilig, voorspelbaar en planbaar spoorgebruik. In deze casus draait het om betrouwbare stuurinformatie over stationbeschikbaarheid, incidenten en onderhoud. De leerroute volgt de stappen **Find → Understand → Define → Own → Trust → Trace → Govern**.
 
 **Rolfocus Data Steward:**
-- Breng per domein (Infra, Verkeer, Onderhoud, Veiligheid) de belangrijkste data-eigenaren en beslissers in kaart.
-- Leg vast welke kritieke definities direct impact hebben op capaciteit, punctualiteit en veiligheid.
-- Prioriteer drie governance use-cases voor de eerste 90 dagen.
+- Verken het domein `Station Operations & Reliability` en breng in kaart wie eigenaar, steward en gebruiker is van de zes kerntabellen.
+- Bepaal welke tabellen (bijvoorbeeld `Incidents`, `StationDailyPerformance`) het meest impact hebben op capaciteit, punctualiteit en veiligheid.
+- Formuleer de terugkerende steward-vragen: Kan ik de data vinden? Begrijp ik de betekenis? Is eigenaarschap duidelijk? Kan ik de data vertrouwen?
 
 **Op te leveren bewijs:**
-- Een eerste steward-stakeholdermap.
-- Een top-10 lijst van kritieke datatermen voor ProRail.
+- Een eerste stakeholdermap voor het domein `Station Operations & Reliability`.
+- Een korte lijst met kritieke datatermen uit de casus (bijvoorbeeld Station, Incident, Station Availability).
 
 
 ## Didactische versterking
@@ -34,11 +37,16 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-map-stakeholders-station-ops
+- AB-usecase-stationbeschikbaarheid
+- AB-notitie-datamap-vs-catalog
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
- 1: Opening Welcome & Introductions
+
+## Task 1: Opening Welcome & Introductions
 
 **⏰ Duration:** 30 minutes
 
@@ -123,6 +131,10 @@ Well done! This part Lab has shown you to the value of Microsoft Purview for fed
 **⏸️ Reflection:** At this point in the masterclass, you have learnt the value of Microsoft Purview and how a federated data governance model can be adopted to scale enterprise-wide.
 
 👉 [Continue: Lab 2](./Lab-02%20-%20Designing%20the%20Data%20Map.md)
+
+
+
+
 
 
 

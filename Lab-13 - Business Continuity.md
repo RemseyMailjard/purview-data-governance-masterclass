@@ -1,19 +1,22 @@
 ![Banner](./assets/banner.png)
 
-# Lab 12: Business Continuity and Disaster Recovery
+# Lab 12: Business Continuity and Disaster Recovery
+
 
 ## ProRail-context voor Data Stewards
 
-**Praktijkkader (ProRail):** Continuiteit van data governance moet ook tijdens verstoringen in systemen of leveranciersketens overeind blijven.
+**Trainingsomgeving:** Continuïteit gaat hier over de beschikbaarheid van de Purview-artefacten (domein, collection, glossary, data product) en de bron `RailData360`. *Alle data is fictief en uitsluitend bedoeld voor training.*
+
+**Praktijkkader (ProRail):** Governance-continuïteit moet ook tijdens verstoringen in systemen of leveranciersketens overeind blijven.
 
 **Rolfocus Data Steward:**
-- Identificeer single points of failure in data-aanlevering.
-- Definieer fallback-processen voor kritieke rapportages.
-- Stem governance-continuiteitsmaatregelen af met crisisprocessen.
+- Identificeer single points of failure in de aanlevering van de bron `RailData360` naar de Data Map.
+- Bepaal welke artefacten (domein `Station Operations & Reliability`, glossary-termen, data product) beschermd moeten worden tegen onbedoeld verwijderen.
+- Stem governance-continuïteit af met de bredere crisisprocessen.
 
 **Op te leveren bewijs:**
-- Continuiteitschecklist voor kritieke dataflows.
-- Oefenscenario voor uitval van kernbron met herstelplan.
+- Een continuïteitschecklist voor de RailData360-dataflow.
+- Een oefenscenario voor uitval van de bron met herstelplan.
 
 
 ## Didactische versterking
@@ -34,11 +37,16 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-bcp-raildata360
+- AB-alert-scan-raildata360
+- AB-lock-station-ops-domain
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
- 1: Understand your Responsibilities
+
+## Task 1: Understand your Responsibilities
 
 **⏰ Duration:** 15 minutes
 
@@ -87,6 +95,10 @@ In most cases, an organization wouldn't deem their internal data governance tool
 **⏸️ Reflection:** You just learnt the business continuity and disaster recovery options available to you in Microsoft Purview. Now let's see what you can do with the APIs and SDKs.
 
 👉 [Continue: Lab 14](./Lab-14%20-%20Custom%20API%20Functionality.md)
+
+
+
+
 
 
 

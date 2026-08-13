@@ -1,19 +1,22 @@
 ![Banner](./assets/banner.png)
 
-# Lab 13: Custom Functionality with APIs and SDKs
+# Lab 13: Custom Functionality with APIs and SDKs
+
 
 ## ProRail-context voor Data Stewards
+
+**Trainingsomgeving:** API-scenario's gebruiken de RailData360-artefacten als voorbeeld (bijvoorbeeld het exporteren van glossary-termen of assets uit het domein `Station Operations & Reliability`). *Alle data is fictief en uitsluitend bedoeld voor training.*
 
 **Praktijkkader (ProRail):** API-uitbreidingen ondersteunen schaalbare governance-integratie met interne ketens en operationele tools.
 
 **Rolfocus Data Steward:**
-- Definieer minimale metadata die via API beschikbaar moet zijn.
-- Leg autorisatie- en auditvereisten vast voor API-gebruik.
-- Prioriteer API-use-cases met directe businesswaarde.
+- Bepaal welke minimale metadata (bijvoorbeeld glossary-term `Station`, asseteigenaar) via API beschikbaar moet zijn.
+- Leg autorisatie- en auditvereisten vast voor API-gebruik op de RailData360-assets.
+- Prioriteer een API-use-case met directe waarde, bijvoorbeeld het bulk-exporteren van de gecureerde termen.
 
 **Op te leveren bewijs:**
-- API-requirementslijst voor stewardship-scenario's.
-- Governancecontrolepunten voor API-integraties.
+- Een API-requirementslijst voor een stewardship-scenario in deze casus.
+- Governancecontrolepunten voor de API-integratie.
 
 
 ## Didactische versterking
@@ -34,11 +37,16 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-api-station-ops-export
+- AB-api-glossary-station
+- AB-api-audittrail-raildata360
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
- 1: Capturing Events
+
+## Task 1: Capturing Events
 
 **⏰ Duration:** 20 minutes
 
@@ -94,6 +102,10 @@ The Microsoft Purview Unified Catalog APIs can be used via a community-built Pyt
 **⏸️ Reflection:** You now have a better understanding of the Purview APIs available to your organization to build, extend and automate aspects of Microsoft Purview Data Governance. Lastly, let's review the pricing and licensing for Microsoft Purview.
 
 👉 [Continue: Lab 15](./Lab-15%20-%20Pricing%20and%20Licensing.md)
+
+
+
+
 
 
 

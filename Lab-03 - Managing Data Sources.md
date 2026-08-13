@@ -1,19 +1,22 @@
 ![Banner](./assets/banner.png)
 
-# Lab 3: Managing Data Sources
+# Lab 3: Managing Data Sources
+
 
 ## ProRail-context voor Data Stewards
 
-**Praktijkkader (ProRail):** Registreer en scan bronnen zoals assetregisters, sensordata, planningsdata, incidentregistraties en leveranciersbestanden.
+**Trainingsomgeving:** De enige bron in deze casus is de Azure SQL Database `RailData360`. Purview scant deze bron centraal via de managed identity `Skills4-IT` met leesrechten; deelnemers hebben **geen** SQL-inloggegevens nodig en werken volledig in de Purview-portal. *Alle data is fictief en uitsluitend bedoeld voor training.*
+
+**Praktijkkader (ProRail):** Registreer en scan één operationele bron met station-, medewerker-, incident-, onderhouds- en prestatiegegevens.
 
 **Rolfocus Data Steward:**
-- Classificeer bronnen op betrouwbaarheid, actualiteit en eigenaarschap.
-- Definieer scanfrequenties op basis van operationele impact.
-- Leg uitzonderingen vast voor legacy- of externe databronnen.
+- Begrijp hoe de bron `RailData360` wordt geregistreerd in de collection `RailData360 Training` en centraal wordt gescand.
+- Bespreek welke tabellen classificaties opleveren (bijvoorbeeld PII in `Employees`: e-mail, telefoon).
+- Weet dat stored procedure-lineage bewust is uitgeschakeld in de scan om de training eenvoudig te houden.
 
 **Op te leveren bewijs:**
-- Bronregister met steward-eigenaar, SLA en scanritme.
-- Beslisnotitie voor bronnen met verhoogd governance-risico.
+- Bronregister met steward-eigenaar en gewenst scanritme voor `RailData360`.
+- Beslisnotitie voor tabellen met verhoogd governance-risico (bijvoorbeeld `Employees`).
 
 
 ## Didactische versterking
@@ -34,11 +37,16 @@
 
 **Verplicht bij alle ✍️ Do in Purview oefeningen:** Voeg je initialen toe aan elk item dat je aanmaakt of wijzigt (bijvoorbeeld domeinen, termen, data producten, controls, rapporten, API-testobjecten).
 
-**Naamconventie:** `[INITIALEN]-[onderdeel]-[korte-naam]`  
-**Voorbeelden:** `JD-domain-spoorinfra`, `JD-term-herstelduur`, `JD-dp-storingsanalyse`.
+**Naamconventie:** [INITIALEN]-[onderdeel]-[korte-naam]
+
+**Kopieerbare voorbeelden voor dit lab:**
+- AB-source-raildata360
+- AB-scan-raildata360-training
+- AB-ruleset-stationdata
 
 **Waarom:** We werken in één gedeelde tenant. Deze afspraak voorkomt overschrijven, maakt eigenaarschap zichtbaar en versnelt opruimen/terugvinden.
- 1: Registering Data Sources
+
+## Task 1: Registering Data Sources
 
 > Microsoft Purview Solution: Data Map
 
@@ -293,6 +301,10 @@ Each time a data source is onboarded, you will (roughly) follow these steps:
 Before you leave, review this section again to understand what is required as your organization connects new data sources or scales Purview across the data estate.
 
 👉 [Continue: Lab 4](./Lab-04%20-%20Governance%20Domains%20and%20Terms.md)
+
+
+
+
 
 
 
